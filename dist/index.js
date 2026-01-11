@@ -28,5 +28,8 @@ var Direction;
 })(Direction || (Direction = {}));
 // Torna processo mais didático
 const direction = Direction.Up;
+// Type Assertions
+const productName = 'Boné';
+//let itemId = productName as string;
+let itemId = productName;
 console.log(direction);
-//# sourceMappingURL=index.js.map
